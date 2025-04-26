@@ -1,0 +1,137 @@
+[
+    {
+        "timestamp": "2025-04-26T03:06:46.520065",
+        "user_input": "Siparişim hâlâ teslim edilmedi, sinirliyim!",
+        "category": "1) iade",
+        "intent": "iade",
+        "sentiment": "öfkeli",
+        "priority": "yüksek",
+        "response": "Üzgünüm, problem sana ulaştı. Siparişinin hâlâ teslim edilmemiş olmasını üzüntüyle karşılıyorum. Lütfen, sipariş numarasını ve adınızın bilmesi için tekrar soruyorum. Bizim ekibimiz hemen harekete geçecek ve durumunu kontrol edecek. En kısa zamanda teslimatınızı gerçekleştireceğiz. Sorununa bir çözüm bulalım."
+    },
+    {
+        "timestamp": "2025-04-26T03:11:25.775216",
+        "user_input": "Ürünümü nasıl iade edebilirim?",
+        "category": "1) iade",
+        "intent": "iade",
+        "sentiment": "nötr",
+        "priority": "orta",
+        "response": "İade etmek için 14 gün içinde müşteri hizmetlerimize başvurabilirsiniz."
+    },
+    {
+        "timestamp": "2025-04-26T03:15:42.032316",
+        "user_input": "Ürünümü nasıl iade edebilirim?",
+        "category": "1) iade",
+        "intent": "iade",
+        "sentiment": "nötr",
+        "priority": "orta",
+        "response": "İade etmek için 14 gün içinde müşteri hizmetlerimize başvurabilirsiniz."
+    },
+    {
+        "timestamp": "2025-04-26T03:19:52.972042",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "1) i̇ade",
+        "intent": "diğer (since the customer is expressing gratitude and appreciation for the product, it's likely that their intention is to provide positive feedback rather than request a specific action or solution.)",
+        "sentiment": "mutlu",
+        "priority": "düşük",
+        "response": "\"Tekrar tebrik ederim! Çok mutlu ettik kendinizi ürünlerimizle! Size yardımcı olalım ister misiniz? Ya da zaten bir sorunuz var mı?\""
+    },
+    {
+        "timestamp": "2025-04-26T03:20:47.363546",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "3) ürün bilgisi",
+        "intent": "bilgi (the customer is seeking information or wanting to share their positive experience with the product)",
+        "sentiment": "mutlu",
+        "priority": "orta",
+        "response": "\"Teşekkür ederim, sizin ürünümüzü beğenmenize çok mutlu olduk! Müşteri memnuniyeti bizim için oldukça önemli. Lütfen sonraki ziyaretlerinizde de aynı derecede keyifli deneyimler yaşayacaksınız!\""
+    },
+    {
+        "timestamp": "2025-04-26T03:21:38.716790",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "ürün bilgisi",
+        "intent": "diğer",
+        "sentiment": "mutlu",
+        "priority": "düşük",
+        "response": "İyi ki beğensiniz! Biz de memnuniyetinizi öğrenmekten memnunduk. Uygulama veya ürünümüzün size yardımcı olması için herhangi bir konuda yardım ister misiniz? (Translation: It's great that you like it! We're glad to hear about your satisfaction. Do you need any help with the application or our product in any way?)"
+    },
+    {
+        "timestamp": "2025-04-26T03:23:54.928250",
+        "user_input": "ürün berbat",
+        "category": "ürün bilgisi",
+        "intent": "şikayet",
+        "sentiment": "öfkeli",
+        "priority": "düşük",
+        "response": "Merhaba! Üçüncül olarak, üzgünüm ki ürünün berbat olduğunu öğrendim. Lütfen beni daha fazla bilgi almak ve nasıl yardımcı olabileceğimi öğrenmek için mağazamızın müşteri destek ekibine ulaşmanızı tavsiye ederim.\n\nLütfen ürün numarasını veya order numarınızı paylaşın, böylece daha hızlı bir şekilde problemi çözebiliriz. Size en kısa zamanda çözümlerini sunmak için elimizden gelen en iyi çabayı harcayacağız."
+    },
+    {
+        "timestamp": "2025-04-26T03:24:54.849625",
+        "user_input": "ürünü çöpe atacağım bu kadar kötü olamaz",
+        "category": "şikayet",
+        "intent": "şikayet",
+        "sentiment": "öfkeli",
+        "priority": "yüksek",
+        "response": "Üzülmediğimiz gibi, sizin ürünümüzle ilgili problem yaşadığını duyduk. Çöpe atmak istemiyorsunuz, ki bunda da haklısınız. Ürünlerimizden memnuniyet duymayan müşterilerimiz için en çok çalışıyoruz.\n\nLütfen bize daha fazla ayrıntı paylaşın, sorunu çözmeye yardımcı olalım. Ürünümüzün hangi kısmında sorun yaşadığını ve nasıl bir problem olduğunu öğrenmek istiyoruz. Bu bilgilerimize dayanarak, size uygun bir çözüm sunmaya çalışacağız.\n\nAyrıca, sizin mevcut deneyimlerinizi değiştirmeye çalışıyoruz. Bizim amacımız, müşterilerimizin memnun olmasını sağlamak ve ürünlerimizden memnuniyet duymalarını sağlamaktır.\n\nLütfen, lütfen bizimle konuşun ve sorununu çözmeye yardımcı olun."
+    },
+    {
+        "timestamp": "2025-04-26T03:27:12.073071",
+        "user_input": "Siparişim 10 gündür gelmedi, çok sinirliyim!",
+        "category": "i̇ade",
+        "intent": "i̇ade",
+        "sentiment": "öfkeli\n\n(cause of anxiety: delayed order)",
+        "priority": "yüksek",
+        "response": "Üzülmenizi istemiyorum. Siparişinizin gecikmesi nedeniyle üzgünüm. Lütfen, sipariş numaranızı ve teslimat adedinizi paylaşın, biz yardım etmek için elimizden gelenin en iyisini yapacağız. Siz de bizimle birlikte çalışalım ve problemi çözmeye çalışalım."
+    },
+    {
+        "timestamp": "2025-04-26T03:33:12.639122",
+        "user_input": "Siparişim yanlış geldi, çok üzgünüm. Ne yapmalıyım?",
+        "category": "i̇ade",
+        "intent": "i̇ade",
+        "sentiment": "üzgün",
+        "priority": "yüksek",
+        "response": "Üzüntünüzden dolayı sonsuz olarak özür diliyorum. Yapmakta olduğunuz siparişimiz yanlış gelmesi son derece düşündürücü bir durum.\n\nLütfen, sorunu çözmek için bizimle çalışalım. Size yardımcı olmak için elimizden geldiğince bütün imkânları kullanıyoruz. Siparişinizin yanlış gelmesinden dolayı memnuniyetsizliğinizi azaltmak ve yeniden düzeltmek için neler yapmalıyız, konuşarak belirleyelim.\n\nÖnceki siparişinizi tekrar gözden geçiriyoruz ve yeni bir sipariş oluşturuyoruz. Sonra, bu yeni siparişinizi gönderiyoruz. Bu süreçte, size düzenli olarak bilgi vereceğiz ve sizin memnuniyetiniz bizim için önemli.\n\nLütfen, size tekrar özür diliyorum ve yardımına ihtiyacınız var. Bizimle konuşarak, sorunu çözmek için birlikte çalışalım."
+    },
+    {
+        "timestamp": "2025-04-26T03:34:15.540589",
+        "user_input": "Siparişim yanlış geldi, çok üzgünüm. Ne yapmalıyım?",
+        "category": "i̇ade",
+        "intent": "i̇ade",
+        "sentiment": "üzgün",
+        "priority": "yüksek",
+        "response": "Üzgünüz bile! Bizde sizin için en iyi şekilde çözüm bulmaya çalışıyoruz. Lütfen sipariş numaranızı ve detaylı bir şekilde sorununuzu bize bildirin. Bizim ekibimiz hemen harekete geçecek ve problem çözüme çalışacaktır. Ayrıca, sizin için daha iyi bir deneyim oluşturmak adına, size öneri sunarız. Sizin güvenilirliğinizi çok önemiyoruz ve sizinle birlikte çalışalım. Lütfen, bize bildirin ve biz yardım edeceğiz!"
+    },
+    {
+        "timestamp": "2025-04-26T03:40:54.113819",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "ürün bilgisi",
+        "intent": "bilgi (information)",
+        "sentiment": "mutlu",
+        "priority": "düşük",
+        "response": "Hoşgörülerinizden dolayı çok mutlu olduk! Ürünümüzün sizin beğenmesini çok önemli biliyoruz. size ulaşan olumlu geri bildirimlerimizden güç alıyor ve daha iyi bir hizmet sunmak için çabalarız. Teşekkür ediyoruz ki bizim ürünümüzle ilgili bir deneyim yaşadınız!"
+    },
+    {
+        "timestamp": "2025-04-26T03:42:28.392922",
+        "user_input": "ürün berbat",
+        "category": "ürün bilgisi",
+        "intent": "i̇ade",
+        "sentiment": "öfkeli",
+        "priority": "düşük",
+        "response": "Üzgünüm, ürününüze sorun var! Lütfen bize detaylarını paylaşın. Ürününiz bozulmuş veya farklı bir şekilde davranıyor mu? Bizim için önemlidir ki, bu sorunu çözmemize yardımcı olursunuz."
+    },
+    {
+        "timestamp": "2025-04-26T03:44:10.278575",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "ürün bilgisi",
+        "intent": "diğer",
+        "sentiment": "mutlu",
+        "priority": "orta",
+        "response": "İyi ki beğenmediniz! İşimizi doğru yaptığımızı görmek bizi mutlu eder. Teşekkür ederiz size, ürünümüzü beğenmenize ve bize güvenmenize. Yardımına ihtiyacınız olmadığında bile, geri bildirimlerimizde sizinle buluşmaya devam etmek isterdik. Lütfen bizimle iletişim kurmaya devam edin!"
+    },
+    {
+        "timestamp": "2025-04-26T15:30:08.800665",
+        "user_input": "Ürünümü çok beğendim, teşekkür ederim!",
+        "category": "ürün bilgisi",
+        "intent": "diğer (thank you and no further action needed)",
+        "sentiment": "mutlu",
+        "priority": "düşük",
+        "response": "\"Teşekkür ederiz sizin beğenmenize! Ürününüzle ilgili herhangi bir sorun ya da sorunuz oldu mu? Aksi halde memnuniyetinizden oldukça memnun oluyoruz!\""
+    }
+]
