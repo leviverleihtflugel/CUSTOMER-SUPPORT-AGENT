@@ -1,6 +1,34 @@
 # 📄 Proje Raporu
 **Proje Adı:** Customer Support Agent (Yerel LLM Entegrasyonlu)
 
+## 🛠️ Framework Kullanımı ve Kurulum Bilgisi
+
+1.  Python 3.10+ bilgisayarınızda kurulu olmalıdır.
+2.  Gerekli Python paketlerini yüklemek için terminale şunu yazın:
+    ```bash
+    pip install streamlit requests
+    ```
+3.  Ollama isimli Local LLM çalıştırıcısını kurun ve çalıştırın:
+    ([https://ollama.com/download](https://ollama.com/download))
+4.  Ollama kurulduktan sonra, terminale şu komut ile Llama3 modelini indirin ve başlatın:
+    ```bash
+    ollama run llama3
+    ```
+5.  Proje dosyalarını bilgisayarınıza kopyalayın:
+    (Örneğin masaüstünde `YapayZeka` adlı bir klasörde)
+6.  Terminalde proje klasörüne gidin:
+    ```bash
+    cd C:\Users\leviv\YapayZeka
+    ```
+7.  Projeyi çalıştırın:
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+
+Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
+
+Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
+
 ## 🎯 Problemin Tanımı ve Projenin Amacı
 
 Günümüzde e-ticaret platformları, hizmet sektörleri ve firmalar her gün binlerce müşteri sorusu ve şikayetiyle karşılaşmaktadır. Bu taleplerin hızlı, doğru ve kullanıcı odaklı şekilde cevaplanması müşteri memnuniyeti için çok önemlidir. Ancak bu yoğunluğu yönetmek, insan destek ekipleri için hem zaman alıcı hem de maliyetlidir. Özellikle basit ve tekrar eden soruların manuel olarak cevaplanması kaynak israfına yol açmaktadır.
@@ -71,34 +99,6 @@ Proje boyunca kullanılan kodların çoğu tarafımızdan geliştirilmiştir. An
 
 Tüm LLM istemci çağrıları OpenAI veya Ollama API uyumlu formatta yazılmıştır.
 
-## 🛠️ Framework Kullanımı ve Kurulum Bilgisi
-
-1.  Python 3.10+ bilgisayarınızda kurulu olmalıdır.
-2.  Gerekli Python paketlerini yüklemek için terminale şunu yazın:
-    ```bash
-    pip install streamlit requests
-    ```
-3.  Ollama isimli Local LLM çalıştırıcısını kurun ve çalıştırın:
-    ([https://ollama.com/download](https://ollama.com/download))
-4.  Ollama kurulduktan sonra, terminale şu komut ile Llama3 modelini indirin ve başlatın:
-    ```bash
-    ollama run llama3
-    ```
-5.  Proje dosyalarını bilgisayarınıza kopyalayın:
-    (Örneğin masaüstünde `YapayZeka` adlı bir klasörde)
-6.  Terminalde proje klasörüne gidin:
-    ```bash
-    cd C:\Users\leviv\YapayZeka
-    ```
-7.  Projeyi çalıştırın:
-    ```bash
-    streamlit run streamlit_app.py
-    ```
-
-Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
-
-Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
-
 ## 📂Proje Dosya Yapısı
 ```bash
 YapayZeka/
@@ -136,4 +136,47 @@ YapayZeka/
 | `conversation_logs.json` | Kullanıcı ile yapılan tüm görüşmelerin kaydedildiği JSON formatındaki dosyadır. (Uygulama çalıştırıldığında otomatik olarak oluşur.) |
 | `requirements.txt`    | Projenin bağımlılıklarını (Streamlit, requests vb.) listeleyen dosyadır.    |
 | `Proje Raporu.docx`   | Proje ile ilgili detaylı bilgilerin yer aldığı rapor dosyasıdır (.pdf formatında da olabilir). |
+
+
+## 📸 Ekran Görüntüleri
+
+### 1. Streamlit Uygulamasını Başlatma
+![1.png](CUSTOMER-SUPPORT-AGENT/Ekran Görüntüleri/1.png)
+Terminalde `streamlit run streamlit_app.py` komutu çalıştırıldı ve uygulama başarıyla başlatıldı.
+
+---
+
+### 2. Yanıt Hazırlama Süreci
+![2.png](./Ekran Görüntüleri/3.png)
+Kullanıcıdan "Ürünü hiç beğenmedim" şeklinde bir şikayet mesajı alındı. Kullanıcı mesajı işlenirken "YANIT HAZIRLANIYOR..." spinnerı gösterildi, sistem çalışıyor.
+
+---
+
+### 3. Üretilen Yanıt ve Analiz Sonuçları
+![3.png](./screenshots/4.png)
+Sistem mesajı analiz ederek kategori, amaç, duygu, öncelik ve detaylı yanıt üretti ve ekrana yazdı.
+
+---
+
+### 4. JSON Log Kaydının İncelenmesi
+![4.png](./screenshots/5.png)
+Kullanıcı sorusu ve sistem yanıtı başarılı şekilde `conversation_logs.json` dosyasına kaydedildi.
+
+---
+
+### 5. Farklı Bir Kullanıcı Yanıtı
+![5.png](./screenshots/6.png)
+"Ürünü çok beğendim" gibi olumlu bir mesaj sonrası yeni analiz ve yanıt üretildi.
+
+---
+
+### 6. Güncellenmiş JSON Logları
+![6.png](./screenshots/7.png)
+Tüm kullanıcı sorularının kayıt altına alındığı JSON dosyasının güncel hali görüntülendi.
+
+---
+
+### 7. Proje Node Klasör Yapısı
+![7.png](./screenshots/8.png)
+Projedeki `agent/nodes/` klasöründeki tüm node dosyalarının doğru şekilde oluşturulduğu gösterildi.
 
