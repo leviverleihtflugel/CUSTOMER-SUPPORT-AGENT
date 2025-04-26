@@ -1,6 +1,34 @@
 # 📄 Proje Raporu
 **Proje Adı:** Customer Support Agent (Yerel LLM Entegrasyonlu)
 
+## 🛠️ Framework Kullanımı ve Kurulum Bilgisi
+
+1.  Python 3.10+ bilgisayarınızda kurulu olmalıdır.
+2.  Gerekli Python paketlerini yüklemek için terminale şunu yazın:
+    ```bash
+    pip install streamlit requests
+    ```
+3.  Ollama isimli Local LLM çalıştırıcısını kurun ve çalıştırın:
+    ([https://ollama.com/download](https://ollama.com/download))
+4.  Ollama kurulduktan sonra, terminale şu komut ile Llama3 modelini indirin ve başlatın:
+    ```bash
+    ollama run llama3
+    ```
+5.  Proje dosyalarını bilgisayarınıza kopyalayın:
+    (Örneğin masaüstünde `YapayZeka` adlı bir klasörde)
+6.  Terminalde proje klasörüne gidin:
+    ```bash
+    cd C:\Users\leviv\YapayZeka
+    ```
+7.  Projeyi çalıştırın:
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+
+Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
+
+Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
+
 ## 🎯 Problemin Tanımı ve Projenin Amacı
 
 Günümüzde e-ticaret platformları, hizmet sektörleri ve firmalar her gün binlerce müşteri sorusu ve şikayetiyle karşılaşmaktadır. Bu taleplerin hızlı, doğru ve kullanıcı odaklı şekilde cevaplanması müşteri memnuniyeti için çok önemlidir. Ancak bu yoğunluğu yönetmek, insan destek ekipleri için hem zaman alıcı hem de maliyetlidir. Özellikle basit ve tekrar eden soruların manuel olarak cevaplanması kaynak israfına yol açmaktadır.
@@ -70,34 +98,6 @@ Proje boyunca kullanılan kodların çoğu tarafımızdan geliştirilmiştir. An
 * Python requests kütüphanesi — [https://pypi.org/project/requests/](https://pypi.org/project/requests/)
 
 Tüm LLM istemci çağrıları OpenAI veya Ollama API uyumlu formatta yazılmıştır.
-
-## 🛠️ Framework Kullanımı ve Kurulum Bilgisi
-
-1.  Python 3.10+ bilgisayarınızda kurulu olmalıdır.
-2.  Gerekli Python paketlerini yüklemek için terminale şunu yazın:
-    ```bash
-    pip install streamlit requests
-    ```
-3.  Ollama isimli Local LLM çalıştırıcısını kurun ve çalıştırın:
-    ([https://ollama.com/download](https://ollama.com/download))
-4.  Ollama kurulduktan sonra, terminale şu komut ile Llama3 modelini indirin ve başlatın:
-    ```bash
-    ollama run llama3
-    ```
-5.  Proje dosyalarını bilgisayarınıza kopyalayın:
-    (Örneğin masaüstünde `YapayZeka` adlı bir klasörde)
-6.  Terminalde proje klasörüne gidin:
-    ```bash
-    cd C:\Users\leviv\YapayZeka
-    ```
-7.  Projeyi çalıştırın:
-    ```bash
-    streamlit run streamlit_app.py
-    ```
-
-Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
-
-Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
 
 ## 📂Proje Dosya Yapısı
 ```bash
