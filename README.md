@@ -100,7 +100,7 @@ Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
 Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
 
 ## 📂Proje Dosya Yapısı
-
+```bash
 YapayZeka/
 │
 ├── agent/
@@ -122,7 +122,7 @@ YapayZeka/
 ├── conversation_logs.json
 ├── requirements.txt
 └── streamlit_app.py
-
+```
 
 
 
