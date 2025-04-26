@@ -125,6 +125,7 @@ YapayZeka/
 
 
 
+
 ## Dosya ve Klasör Açıklamaları
 
 | Dosya / Klasör        | Açıklama                                                                 |
