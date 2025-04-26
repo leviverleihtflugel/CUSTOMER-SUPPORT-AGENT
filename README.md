@@ -137,3 +137,46 @@ YapayZeka/
 | `requirements.txt`    | Projenin bağımlılıklarını (Streamlit, requests vb.) listeleyen dosyadır.    |
 | `Proje Raporu.docx`   | Proje ile ilgili detaylı bilgilerin yer aldığı rapor dosyasıdır (.pdf formatında da olabilir). |
 
+
+## 📸 Ekran Görüntüleri
+
+### 1. Streamlit Uygulamasını Başlatma
+![1.png](./screenshots/1.png)
+Terminalde `streamlit run streamlit_app.py` komutu çalıştırıldı ve uygulama başarıyla başlatıldı.
+
+---
+
+### 2. Yanıt Hazırlama Süreci
+![2.png](./screenshots/3.png)
+Kullanıcıdan "Ürünü hiç beğenmedim" şeklinde bir şikayet mesajı alındı. Kullanıcı mesajı işlenirken "YANIT HAZIRLANIYOR..." spinnerı gösterildi, sistem çalışıyor.
+
+---
+
+### 3. Üretilen Yanıt ve Analiz Sonuçları
+![3.png](./screenshots/4.png)
+Sistem mesajı analiz ederek kategori, amaç, duygu, öncelik ve detaylı yanıt üretti ve ekrana yazdı.
+
+---
+
+### 4. JSON Log Kaydının İncelenmesi
+![4.png](./screenshots/5.png)
+Kullanıcı sorusu ve sistem yanıtı başarılı şekilde `conversation_logs.json` dosyasına kaydedildi.
+
+---
+
+### 5. Farklı Bir Kullanıcı Yanıtı
+![5.png](./screenshots/6.png)
+"Ürünü çok beğendim" gibi olumlu bir mesaj sonrası yeni analiz ve yanıt üretildi.
+
+---
+
+### 6. Güncellenmiş JSON Logları
+![6.png](./screenshots/7.png)
+Tüm kullanıcı sorularının kayıt altına alındığı JSON dosyasının güncel hali görüntülendi.
+
+---
+
+### 7. Proje Node Klasör Yapısı
+![7.png](./screenshots/8.png)
+Projedeki `agent/nodes/` klasöründeki tüm node dosyalarının doğru şekilde oluşturulduğu gösterildi.
+
