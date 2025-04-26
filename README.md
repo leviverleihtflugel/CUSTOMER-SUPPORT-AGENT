@@ -98,3 +98,33 @@ Tüm LLM istemci çağrıları OpenAI veya Ollama API uyumlu formatta yazılmı�
 Bu adımlar tamamlandığında, uygulama tarayıcınızda açılacaktır.
 
 Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma hazırdır! 🚀
+
+## 📂Proje Dosya Yapısı
+
+YapayZeka/
+├── agent/
+│   └── nodes/
+│       ├── classify_question.py
+│       ├── extract_intent.py
+│       ├── detect_sentiment.py
+│       ├── priority_scoring.py
+│       ├── knowledge_base_search.py
+│       ├── summary_generator.py
+│       └── logger.py
+├── llm_connection/
+│   └── llm_client.py
+├── conversation_logs.json
+├── requirements.txt
+└── streamlit_app.py
+
+## Dosya ve Klasör Açıklamaları
+
+| Dosya / Klasör        | Açıklama                                                                 |
+| --------------------- | ------------------------------------------------------------------------ |
+| `agent/nodes/`        | Ajanın farklı görevlerini yerine getiren tüm düğüm (node) dosyalarını içerir. |
+| `llm_connection/`   | Büyük dil modeli (LLM) ile bağlantıyı sağlayan istemci dosyasını içerir (Ollama gibi). |
+| `streamlit_app.py`    | Streamlit kullanıcı arayüzünü başlatan ana Python dosyasıdır.             |
+| `conversation_logs.json` | Kullanıcı ile yapılan tüm görüşmelerin kaydedildiği JSON formatındaki dosyadır. (Uygulama çalıştırıldığında otomatik olarak oluşur.) |
+| `requirements.txt`    | Projenin bağımlılıklarını (Streamlit, requests vb.) listeleyen dosyadır.    |
+| `Proje Raporu.docx`   | Proje ile ilgili detaylı bilgilerin yer aldığı rapor dosyasıdır (.pdf formatında da olabilir). |
+
