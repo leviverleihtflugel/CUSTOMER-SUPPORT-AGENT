@@ -147,7 +147,7 @@ Terminalde `streamlit run streamlit_app.py` komutu çalıştırıldı ve uygulam
 ---
 
 ### 2. Yanıt Hazırlama Süreci
-![2.png](./screenshots/3.png)
+![2.png](./Ekran Görüntüleri/3.png)
 Kullanıcıdan "Ürünü hiç beğenmedim" şeklinde bir şikayet mesajı alındı. Kullanıcı mesajı işlenirken "YANIT HAZIRLANIYOR..." spinnerı gösterildi, sistem çalışıyor.
 
 ---
