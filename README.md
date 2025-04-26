@@ -103,19 +103,20 @@ Yerel LLM (Llama3) ile çalışan müşteri destek asistanınız kullanıma haz�
 
 YapayZeka/
 ├── agent/
-│   └── nodes/
-│       ├── classify_question.py
-│       ├── extract_intent.py
-│       ├── detect_sentiment.py
-│       ├── priority_scoring.py
-│       ├── knowledge_base_search.py
-│       ├── summary_generator.py
-│       └── logger.py
+│   └── nodes/
+│       ├── classify_question.py
+│       ├── extract_intent.py
+│       ├── detect_sentiment.py
+│       ├── priority_scoring.py
+│       ├── knowledge_base_search.py
+│       ├── summary_generator.py
+│       └── logger.py
 ├── llm_connection/
-│   └── llm_client.py
+│   └── llm_client.py
 ├── conversation_logs.json
 ├── requirements.txt
 └── streamlit_app.py
+
 
 ## Dosya ve Klasör Açıklamaları
 
