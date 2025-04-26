@@ -88,7 +88,7 @@ Tüm LLM istemci çağrıları OpenAI veya Ollama API uyumlu formatta yazılmı�
     (Örneğin masaüstünde `YapayZeka` adlı bir klasörde)
 6.  Terminalde proje klasörüne gidin:
     ```bash
-    cd C:\Users\KullaniciAdi\Desktop\YapayZeka
+    cd C:\Users\leviv\YapayZeka
     ```
 7.  Projeyi çalıştırın:
     ```bash
