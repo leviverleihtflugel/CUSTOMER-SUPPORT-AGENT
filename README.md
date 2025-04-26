@@ -141,7 +141,7 @@ YapayZeka/
 ## 📸 Ekran Görüntüleri
 
 ### 1. Streamlit Uygulamasını Başlatma
-![1.png](./screenshots/1.png)
+![1.png](CUSTOMER-SUPPORT-AGENT/Ekran Görüntüleri/1.png)
 Terminalde `streamlit run streamlit_app.py` komutu çalıştırıldı ve uygulama başarıyla başlatıldı.
 
 ---
